@@ -1,0 +1,18 @@
+entries:
+
+  - title: Posts
+    post_list:
+      limit: 5
+      category: Posts
+      show_more: true
+      show_more_text: More..
+      show_more_url: Posts.html
+
+  - title: Repository
+    post_list:
+      limit: 5
+      category: Repository
+      show_more: true
+      show_more_text: More..
+      show_more_url: Repository.html
+      
