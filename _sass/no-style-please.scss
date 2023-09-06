@@ -13,7 +13,7 @@ body {
   color: black; // 文字颜色
   font-family: monospace; // 字体
   font-size: 16px; // 字体大小
-  line-height: 1.4; // 行高
+  line-height: 1.6; // 行高
   margin: 0; // 无外边距
   min-height: 100%; // 最小高度
   overflow-wrap: break-word; // 自动换行
@@ -39,7 +39,7 @@ li { margin: 0.4rem 0; }
 
 // .w 类的样式设置
 .w {
-  max-width: 460px; // 最大宽度
+  max-width: 420px; // 最大宽度
   margin: 0 auto; // 居中
   padding: 4rem 2rem; // 内边距
 }
