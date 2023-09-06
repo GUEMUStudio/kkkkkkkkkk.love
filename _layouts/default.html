@@ -17,30 +17,5 @@
         <script type="text/javascript" src="{{ site.baseurl }}/assets/js/{{ js_file }}.js"></script>
       {% endfor %}
     {% endif %}
-
-    <script>
-      document.addEventListener("DOMContentLoaded", function() {
-          document.querySelectorAll('a[href$=".jpg"], a[href$=".jpeg"], a[href$=".png"]').forEach(function(imgLink) {
-              imgLink.onclick = function(event) {
-                  event.preventDefault();
-                  let img = new Image();
-                  img.src = this.href;
-                  img.style.display = 'block';
-                  img.style.margin = '0 auto';
-                  img.style.maxWidth = '100%';
-                  img.style.maxHeight = '100vh';
-                  img.style.position = 'fixed';
-                  img.style.top = '50%';
-                  img.style.left = '50%';
-                  img.style.transform = 'translate(-50%, -50%)';
-                  img.onclick = function() {
-                      document.body.removeChild(img);
-                  };
-                  document.body.appendChild(img);
-              };
-          });
-      });
-      </script>
-      
   </body>
 </html>
