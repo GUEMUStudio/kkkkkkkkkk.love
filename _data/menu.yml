@@ -3,16 +3,16 @@ entries:
   - title: Posts
     post_list:
       limit: 5
-      category: Posts
+      category: Post
       show_more: true
       show_more_text: More..
       show_more_url: Posts.html
 
-  - title: Repository
+  - title: Repositories
     post_list:
       limit: 5
       category: Repository
       show_more: true
       show_more_text: More..
-      show_more_url: Repository.html
+      show_more_url: repositories.html
       

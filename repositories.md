@@ -1,5 +1,5 @@
 ---
 layout: archive
 which_category: Repository
-title: All Repository
+title: All Repositories
 ---
