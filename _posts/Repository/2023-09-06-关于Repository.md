@@ -1,9 +1,10 @@
 ---
 layout: post
-title:  "关于Repository"
+title:  "About the Repository"
 date:   2023-09-06
 category: Repository
 ---
 
-计划把一些自己做的，相对系统化的知识库放到这里，比起半天想不出一个字的微博，我可能更擅长写这些吧
+I plan to put some of my own relatively systematic knowledge bases here. Compared to struggling for half a day trying to come up with a word for Weibo, I'm probably better at writing stuff like this
 
+**Coming soon..**
