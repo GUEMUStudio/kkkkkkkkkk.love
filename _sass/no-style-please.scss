@@ -17,6 +17,7 @@ body {
   margin: 0; // 无外边距
   min-height: 100%; // 最小高度
   overflow-wrap: break-word; // 自动换行
+  letter-spacing: 1px;  // 字宽根据需要调整该值
 }
 
 // 文章的元数据文本对齐方式
@@ -39,7 +40,7 @@ li { margin: 0.4rem 0; }
 
 // .w 类的样式设置
 .w {
-  max-width: 420px; // 最大宽度
+  max-width: 480px; // 最大宽度
   margin: 0 auto; // 居中
   padding: 4rem 2rem; // 内边距
 }
