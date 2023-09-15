@@ -1,7 +1,5 @@
 ---
 layout: post
-title:  "About the Repository"
-date:   2023-09-06
 category: Repository
 ---
 

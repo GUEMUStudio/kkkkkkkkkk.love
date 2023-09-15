@@ -3,10 +3,28 @@ layout: default
 ---
 <header>
   <h1>{{ site.title }}</h1>
-  {%-if site.theme_config.show_description-%}
-    <p>{{ site.description }}</p>
-  {%-endif-%}
 </header>
 
-{%-include menu_item.html collection=site.data.menu.entries-%}
+
+
+  {%-include menu_item.html collection=site.data.menu.entries-%}
+
+  <div class="I-message">
+  
+    <b>2023-09-16
+      由于各种审查、限制机制与个人价值观不符，于是开了”10K.love"这个空间，这里会有我的最新动态，当然，它类似朋友圈，可能偶尔只是想在某个时刻留下某句话</b>
+      </div>
+
+  <div class="I-message">
+  
+    <b>2023-09-16
+      空间设计秉承极简主义，但你应该知道我的风格，肯定不会是看起来那么简单🙃</br></br>
+      </b>
+      </div>
+
+  <div class="I-message">
+  
+        <b>2023-09-16
+          “Repositories”里是一些个人整理的资料库，有技术文档、方案什么的，因为用途不同，可能托管在不同的平台，内有说明，请按需自取</b>
+          </div>
 {{ content }}

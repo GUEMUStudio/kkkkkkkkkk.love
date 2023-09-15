@@ -1,7 +1,5 @@
 ---
 layout: post
-title:  "Yup, that's pretty damn minimalistic alright"
-date:   2023-09-06
 category: Post
 ---
 
