@@ -10,7 +10,7 @@ html { height: 100%; }
 
 // body 的基本样式设置
 body {
-  color: black; // 文字颜色
+  color: rgb(50, 50, 50); // 文字颜色
   font-family: monospace; // 字体
   font-size: 16px; // 字体大小
   line-height: 1.9; // 行高
@@ -74,7 +74,7 @@ li { margin: 0.4rem 0; }
 
 // .w 类的样式设置
 .w {
-  max-width: 480px; // 最大宽度
+  max-width: 640px; // 最大宽度
   margin: 0 auto; // 居中
   padding: 4rem 2rem; // 内边距
 }
