@@ -1,5 +1,5 @@
 ---
 layout: archive
-which_category: Post
+which_category: post
 title: All posts
 ---

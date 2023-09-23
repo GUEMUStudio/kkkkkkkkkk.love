@@ -1,6 +1,6 @@
 ---
 layout: post
-category: Post
+category: post
 ---
 
 
@@ -13,3 +13,4 @@ Oh, and if English isn't your jam, just pop on your browser's translation*（浏
 ![p1](../../img/2023-09-06_01.jpg)
 ***F16/S1.3/ISO100-Ricoh GR II  
 Shot in Koh Tao, Thailand in 2017***
+
