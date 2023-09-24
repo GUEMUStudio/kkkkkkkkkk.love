@@ -1,6 +1,7 @@
 ---
 layout: post
 category: post
+tag: Blog
 ---
 
 
