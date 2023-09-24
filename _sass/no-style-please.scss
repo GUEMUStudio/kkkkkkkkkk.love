@@ -40,7 +40,8 @@ a {
 
 /* 消息样式 */
 .I-message {
-  width: 80%; /* 宽度：80% */
+  max-width: 360px;
+  width: 100%; /* 宽度：80% */
   margin: 20px 5px 10px 0; /* 外边距 */
   padding: 10px 10px 10px 15px; /* 内边距 */
   border-radius: 15px; /* 圆角半径：15px */
