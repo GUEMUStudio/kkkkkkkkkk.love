@@ -55,13 +55,12 @@ a {
   color: rgb(255, 255, 255); /* 文字颜色 */
   border: 0px solid blue; /* 边框样式 */
   padding: 2px; /* 内边距 */
-  margin: 0 5px; /* 上下外边距为0，左右外边距*/
+  margin: 0 0px; /* 上下外边距为0，左右外边距*/
   background-color: #c7c7c7; /* 背景颜色 */
   border-radius: 5px; /* 边框圆角 */
   line-height: 1; /* 确保行高与字体大小匹配 */
   font-size: 12px; /* 文字大小 */
   white-space: nowrap; /* 防止内部文本换行 */
-  display: inline-block; /* 使标签块作为一个整体移动 */
 }
 
 /* 定义音频播放器 */
