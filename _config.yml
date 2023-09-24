@@ -7,7 +7,7 @@ baseurl: "" # subpath of the site, e.g. "/blog" (leave it blank "" if you're sit
 permalink: /:slug.html
 
 favicon: "favicon.png"
-goat_counter: "kkkkkkkkkk" # put your GoatCounter name if you want to use GoatCounter analytics
+#goat_counter: "kkkkkkkkkk" # put your GoatCounter name if you want to use GoatCounter analytics
 
 theme_config:
   back_home_text: ".." # customize text for homepage link in post layout
