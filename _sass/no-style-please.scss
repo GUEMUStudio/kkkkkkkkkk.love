@@ -18,7 +18,7 @@ body {
 
 .counter-container {
   position: relative;
-  top: -0.4em; /* 这里的值可以根据需要调整来移动元素的位置 */
+  top: -0.4em; /* 这里的值可以根据需要调整来移动元素位置 */
 }
 
 .custom-counter {
@@ -34,6 +34,7 @@ body {
 
 a {
   color: #00f; 
+  font-weight: normal;
 }
 
 .I-message {
