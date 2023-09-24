@@ -6,11 +6,12 @@ layout: default
 
 <article>
   <p class="post-meta">
+
+    
     <time datetime="{{ page.date }}">{{ page.date | date: site.theme_config.date_format }}</time>
   </p>
 
-  <h1>{{ page.title }}</h1>
+  <h1>{{ page.title }}<span class="counter-container"><script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><span id="busuanzi_container_page_pv" class="custom-counter"><span id="busuanzi_value_page_pv"></span> views</span></span></h1>
 
   {{ content }}
 </article>
-
