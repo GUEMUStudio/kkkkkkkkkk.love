@@ -1,145 +1,129 @@
+/* 全局样式 */
+html, body {
+  background: #ffffff; /* 页面背景颜色：白色 */
+  margin: 0; /* 清除默认的外边距 */
+}
+html { height: 100%; } /* 设置html高度为100% */
 
-html, body { background: rgb(255, 255, 255); }
-
-// 设置 html 高度为 100%
-html { height: 100%; }
-
-// body 的基本样式设置
 body {
-  color: rgb(37, 37, 37); // 文字颜色
-  font-family: monospace; // 字体
-  font-size: 16px; // 字体大小
-  line-height: 1.9; // 行高
-  margin: 0; // 无外边距
-  min-height: 100%; // 最小高度
-  overflow-wrap: break-word; // 自动换行
-  letter-spacing: 1px;  // 字宽根据需要调整该值
+  color: #252525; /* 文本颜色：深灰色 */
+  font-family: monospace; /* 使用等宽字体 */
+  font-size: 16px; /* 字体大小：16px */
+  line-height: 1.9; /* 行高：1.9 */
+  min-height: 100%; /* 设置最小高度为100% */
+  overflow-wrap: break-word; /* 单词会在边界内换行 */
+  letter-spacing: 1px; /* 字符间隔：1px */
 }
 
+/* 计数器容器样式 */
 .counter-container {
-  position: relative;
-  top: -0.4em; /* 这里的值可以根据需要调整来移动元素位置 */
-  display: inline-block; /* 使 .counter-container 作为整体被换行 */
-  white-space: nowrap; /* 阻止 .counter-container 内的文本换行 */
+  position: relative; /* 设置定位为相对定位 */
+  top: -0.4em; /* 定位上移0.4em */
+  display: inline-block; /* 以内联块的形式显示 */
+  white-space: nowrap; /* 文本不换行 */
 }
 
+/* 自定义计数器样式 */
 .custom-counter {
-  color: #ffffff; /* 文字颜色 */
-  font-size: 12px; /* 字体大小 */
-  font-weight: normal; /* 字体加粗 */
-  background-color: #373737; /* 背景颜色 */
-  border: 0px solid #ddd; /* 边框 */
-  padding: 2px; /* 内边距 */
-  margin: 0px 0px; /* 外边距 */
-  border-radius: 5px; /* 边框圆角 */
+  color: #ffffff; /* 文本颜色：白色 */
+  font-size: 12px; /* 字体大小：12px */
+  background-color: #373737; /* 背景颜色：深灰色 */
+  padding: 2px; /* 内边距：2px */
+  border-radius: 5px; /* 圆角半径：5px */
 }
 
+/* 链接样式 */
 a {
-  color: #00f; 
-  font-weight: normal;
+  color: #0000ff; /* 链接颜色：蓝色 */
+  font-weight: normal; /* 字体权重：正常 */
 }
 
+/* 消息样式 */
 .I-message {
-  width: 80%;            
-  margin-top: 20px;      /* 块的顶部外部距离 */
-  margin-bottom: 10px;   /* 块的底部外部距离 */
-  margin-left: 5px;     /* 块的左侧外部距离 */
-  margin-right: 0px;    /* 块的右侧外部距离 */
-
-  padding-top: 10px;     /* 块的顶部内部填充 */
-  padding-bottom: 10px;   /* 块的底部内部填充 */
-  padding-left: 15px;     /* 块的左侧内部填充 */
-  padding-right: 10px;   /* 块的右侧内部填充 */
-
-  border-radius: 15px; /* 设置圆角半径，可以根据需要调整 */
-  background-color: #f3f3f3; 
-  border: 0px solid #ffffff; 
-  color: #929292;            
-  font-size: 14px;           
-  line-height: 1.3;       /* 定义行间距 */
+  width: 80%; /* 宽度：80% */
+  margin: 20px 5px 10px 0; /* 外边距 */
+  padding: 10px 10px 10px 15px; /* 内边距 */
+  border-radius: 15px; /* 圆角半径：15px */
+  background-color: #f3f3f3; /* 背景颜色：浅灰色 */
+  color: #929292; /* 文本颜色：中灰色 */
+  font-size: 14px; /* 字体大小：14px */
+  line-height: 1.3; /* 行高：1.3 */
 }
 
-
-
-
-.separator {  /* 分隔符 */
-  height: 5px; /* 设置高度，可以根据需要调整 */
-  background-color: #ccc; /* 设置背景颜色，可以根据需要调整 */
-  visibility: hidden; /* 隐藏元素，但仍占据空间 */
+/* 分隔符样式 */
+.separator {
+  height: 5px; /* 高度：5px */
+  background-color: #cccccc; /* 背景颜色：灰色 */
+  visibility: hidden; /* 隐藏但保留空间 */
 }
 
+/* 后退链接样式 */
 .back-link {
-  display: block;
-  margin-top: 2rem;      /* 调整上边距 */
-  margin-bottom: 0rem;  /* 调整下边距 */
+  display: block; /* 以块的形式显示 */
+  margin-top: 2rem; /* 上外边距：2rem */
 }
 
-// 文章的元数据文本对齐方式，margin-top是上下间距
-.post-meta { text-align: right; 
-  margin-top: 0rem;     
+/* 文章元数据样式 */
+.post-meta {
+  text-align: right; /* 文本右对齐 */
 }
 
-// 标题的上边距设置
-h2, h3, h4, h5, h6 { margin-top: 3rem; }
+/* 头部样式 */
+h2, h3, h4, h5, h6 { margin-top: 3rem; } /* 上外边距：3rem */
 
-// 水平分割线的边距
-hr { margin: 2rem 0; }
+/* 水平分割线样式 */
+hr { margin: 2rem 0; } /* 上下外边距：2rem */
 
-// 段落的边距设置
-p { margin: 2.5rem 0; }
+/* 段落样式 */
+p { margin: 2.5rem 0; } /* 上下外边距：2.5rem */
 
-// 列表项的边距
-li { margin: 0.4rem 0; }
+/* 列表项样式 */
+li { margin: 0.4rem 0; } /* 上下外边距：0.4rem */
 
-// 目标元素的背景颜色
-*:target { background: rgb(128, 128, 128); }
+/* 被链接目标的背景颜色 */
+*:target { background: #808080; }
 
-// .w 类的样式设置
+/* .w 类样式 */
 .w {
-  max-width: 640px; // 最大宽度
-  margin: 0 auto; // 居中
-  padding: 4rem 2rem; // 内边距
+  max-width: 640px; /* 最大宽度：640px */
+  margin: 0 auto; /* 居中显示 */
+  padding: 4rem 2rem; /* 内边距：上下4rem，左右2rem */
 }
 
-// 自定义水平分割线样式
-
-
-// 表格样式
-table { width: 100%; } // 宽度为100%
+/* 表格样式 */
 table, th, td {
-  border: thin solid black; // 边框样式
-  border-collapse: collapse; // 边框合并
-  padding: 0.4rem; // 内边距
+  width: 100%; /* 宽度：100% */
+  border: thin solid black; /* 边框：细黑线 */
+  border-collapse: collapse; /* 边框合并 */
+  padding: 0.4rem; /* 内边距：0.4rem */
 }
 
-// 代码块样式
+/* 代码块样式 */
 code {
-  color: rgb(0, 0, 0); // 文字颜色
-  background: rgb(231, 231, 231); // 背景颜色
-  font-size: 14px; // 字体大小
+  color: #000000; /* 文本颜色：黑色 */
+  background: #e7e7e7; /* 背景颜色：浅灰色 */
+  font-size: 14px; /* 字体大小：14px */
 }
 
-// Rouge代码高亮样式
+/* Rouge代码高亮样式 */
 div.highlighter-rouge code {
-  display: block; // 块级显示
-  overflow-x: auto; // 横向滚动条
-  white-space: pre-wrap; // 保留空格
-  padding: 1rem; // 内边距
+  display: block; /* 以块的形式显示 */
+  overflow-x: auto; /* 横向滚动条 */
+  white-space: pre-wrap; /* 保留空格 */
+  padding: 1rem; /* 内边距：1rem */
 }
 
-// 引用样式
+/* 引用样式 */
 blockquote {
-  font-style: italic; // 斜体
-  border: thin solid black; // 边框样式
-  padding: 1rem; // 内边距
-
-  // 引用中的段落样式
-  p { margin: 0; }
+  font-style: italic; /* 斜体 */
+  border: thin solid black; /* 边框：细黑线 */
+  padding: 1rem; /* 内边距：1rem */
+  p { margin: 0; } /* 引用中的段落无外边距 */
 }
 
-// 图片样式
+/* 图片样式 */
 img {
-  max-width: 100%; // 最大宽度
-  display: block; // 块级显示
-  margin: 0 auto; // 居中
+  max-width: 100%; /* 最大宽度：100% */
+  display: block; /* 以块的形式显示 */
+  margin: 0 auto; /* 居中显示 */
 }
