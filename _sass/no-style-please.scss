@@ -54,7 +54,7 @@ a {
 .audio-container {
   max-width: 320px; /* 设置最大宽度为320px */
   width: 100%; /* 宽度为父元素的100%，用于实现自适应 */
-  margin: auto; /* 让容器居中显示 */
+  margin: left; /* 让容器居中显示 */
 }
 
 .audio-cover {
