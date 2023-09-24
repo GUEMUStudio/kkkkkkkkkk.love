@@ -52,8 +52,9 @@ a {
 
 /* 定义音频播放器 */
 .audio-container {
-  width: 320px; /* 您可以根据需要设置宽度 */
-  margin: left; /* "auto"让容器居中显示 */
+  max-width: 320px; /* 设置最大宽度为320px */
+  width: 100%; /* 宽度为父元素的100%，用于实现自适应 */
+  margin: auto; /* 让容器居中显示 */
 }
 
 .audio-cover {
