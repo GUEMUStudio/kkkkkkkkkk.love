@@ -7,7 +7,6 @@ entries:
       show_more: true
       show_more_text: More..
       show_more_url: Posts.html
-
   - title: Repositories
     post_list:
       limit: 5
@@ -15,9 +14,6 @@ entries:
       show_more: true
       show_more_text: More..
       show_more_url: repositories.html
-
   - title: E-Mail
     entries:
       - title: <a href='mailto:KK@KKKKKKKKKK.love'>KK@KKKKKKKKKK.love</a>
-
-      
