@@ -100,7 +100,7 @@ ul {
 h2, h3, h4, h5, h6 { margin-top: 3rem; } /* 上外边距：3rem */
 
 /* 水平分割线样式 */
-hr { margin: 2rem 0; } /* 上下外边距：2rem */
+hr { margin: 1rem 0; } /* 上下外边距：2rem */
 
 /* 段落样式 */
 p { margin: 2.5rem 0; } /* 上下外边距：2.5rem */
@@ -132,7 +132,7 @@ table, th, td {
 /* 代码块样式 */
 code {
   color: #000000; /* 文本颜色：黑色 */
-  background: #e7e7e7; /* 背景颜色：浅灰色 */
+  background: #bebebe; /* 背景颜色：浅灰色 */
   font-size: 14px; /* 字体大小：14px */
 }
 
@@ -150,6 +150,12 @@ blockquote {
   border: thin solid black; /* 边框：细黑线 */
   padding: 1rem; /* 内边距：1rem */
   p { margin: 0; } /* 引用中的段落无外边距 */
+}
+
+em {
+  font-style: italic; /* 设置斜体字样式 */
+  color: #b2b2b2; /* 设置斜体字颜色 */
+  font-size: 16px; /* 设置斜体字大小 */
 }
 
 /* 图片样式 */
