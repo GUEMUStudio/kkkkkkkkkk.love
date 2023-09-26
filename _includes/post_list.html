@@ -14,9 +14,14 @@
   <ul>
     {%- for post in posts limit: include.limit -%}
     <li>
-      <span>{{- post.date | date: site.theme_config.date_format -}}<span style="margin-right: 5px;"></span></span>
-      {%- if post.tag -%}<span class="tags">{{ post.tag }}</span>{%- endif -%}
-      <span style="margin-right: 5px;"></span><a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      {%- if post.categories contains 'Repository' -%}
+        {%- if post.tag -%}<span class="tags">{{ post.tag }}</span>{%- endif -%}
+        <span style="margin-right: 5px;"></span><a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      {%- else -%}
+        <span>{{- post.date | date: site.theme_config.date_format -}}<span style="margin-right: 5px;"></span></span>
+        {%- if post.tag -%}<span class="tags">{{ post.tag }}</span>{%- endif -%}
+        <span style="margin-right: 5px;"></span><a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      {%- endif -%}
     </li>
     {%- endfor -%}
     {%- if include.show_more and limit_exceeded -%}

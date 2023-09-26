@@ -1,7 +1,6 @@
 ---
 layout: post
 category: post
-tag: Blog
 ---
 
 
@@ -11,7 +10,5 @@ By the way, I had this idea to make the links green at first. But, you know, kee
 
 Oh, and if English isn't your jam, just pop on your browser's translation*（浏览器翻译功能）*. It should do the trick..
 
-![p1](../../img/2023-09-06_01.jpg)
-***F16/S1.3/ISO100-Ricoh GR II  
-Shot in Koh Tao, Thailand in 2017***
+
 

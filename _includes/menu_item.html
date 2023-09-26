@@ -1,10 +1,13 @@
 <ul>
   {%- for item in include.collection -%}
-    {%- if forloop.first == false -%}
-    <div style="height: 1.6em;"></div>
+    {%- if forloop.first == false and include.is_subitem != true -%}
+      <div style="height: 1.6em;"></div>
     {%- endif -%}
     <li>
       {%- if item.url -%}
+        {%- if item.date -%}
+          <span>{{ item.date | date: site.theme_config.date_format }}<span style="margin-right: 5px;"></span></span>
+        {%- endif -%}
         <a href="{{ item.url }}">{{ item.title }}</a>
       {%- else -%}
         {{ item.title }}
@@ -22,7 +25,7 @@
     {%- endif -%}
 
     {%- if item.entries -%}
-      {%- include menu_item.html collection=item.entries -%}
+      {%- include menu_item.html collection=item.entries is_subitem=true -%}
     {%- endif -%}
   {%- endfor -%}
 </ul>
