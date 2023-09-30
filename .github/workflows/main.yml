@@ -24,5 +24,5 @@ jobs:
       - name: 部署到 GitHub Pages
         uses: peaceiris/actions-gh-pages@v3  # 使用 GitHub Action 来部署到 GitHub Pages
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}  # 使用 GitHub Token 来获得权限
+          github_token: ${{ secrets.CUSTOM_PLUGINS }}  # 使用 GitHub Token 来获得权限
           publish_dir: ./_site  # 部署 _site 目录下的内容
