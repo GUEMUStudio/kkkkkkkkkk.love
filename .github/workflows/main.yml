@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest  # 运行在最新版本的 Ubuntu 上
     steps:
       - name: 检出仓库
-        uses: actions/checkout@4.1.0  # 使用 GitHub Action 来检出您的仓库
+        uses: actions/checkout@4  # 使用 GitHub Action 来检出您的仓库
         
       - name: 设置 Ruby
         uses: ruby/setup-ruby@v1  # 设置 Ruby 环境
