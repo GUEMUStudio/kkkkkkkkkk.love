@@ -37,6 +37,12 @@ body {
   border-radius: 5px;
 }
 
+.w {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 4rem 2rem;
+}
+
 a {
   color: #373737;
   font-weight: bold;
@@ -114,15 +120,36 @@ li {
   margin: 0rem 0;
 }
 
+.toc-container {
+  position: -webkit-sticky;
+  position: sticky;
+  bottom: 0%;         /* 距离底部的距离 */
+  z-index: 1001;
+
+  /* 这里使容器与.w的宽度保持一致 */
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 0rem 0rem;
+  text-align: right;  /* 使按钮向右对齐 */
+}
+
+.toc-button {
+
+  /* 样式 */
+  display: inline-block; /* 这确保按钮可以应用到内部间距和外部间距 */
+  font-size: 1.2rem;      /* 字体大小 */
+  font-weight: bold;      /* 字体粗细 */
+  padding: 3px 12px; 
+  background-color: #373737; /* 背景颜色 */
+  border-radius: 0px;     /* 圆角大小 */
+  color: #ffffff;            /* 文字颜色 */
+  text-decoration: none;  /* 移除链接下划线 */
+  cursor: pointer;        /* 鼠标悬停时的样式为手指形状 */
+}
+
 *:target {
   background: #373737;
   color: #ffffff;
-}
-
-.w {
-  max-width: 640px;
-  margin: 0 auto;
-  padding: 4rem 2rem;
 }
 
 table, th, td {

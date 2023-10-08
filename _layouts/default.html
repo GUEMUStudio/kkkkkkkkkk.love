@@ -16,20 +16,25 @@
             {% if page.footer_img %}
             <img class="lazyload footer-img" data-src="{{ page.footer_img }}" alt="Footer Image">
             {% endif %}
+            </div>
         </div>
     </main>
+
     {%-if site.goat_counter and jekyll.environment == "production"-%}
     {%-include goat_counter.html-%}
     {%-endif-%}
+
     {% if page.custom_js %}
     {% for js_file in page.custom_js %}
     <script type="text/javascript" src="{{ site.baseurl }}/assets/js/{{ js_file }}.js"></script>
     {% endfor %}
     {% endif %}
+
     <script>
         window.lazySizesConfig = window.lazySizesConfig || {};
         window.lazySizesConfig.expand = 800;
     </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.3.2/lazysizes.min.js" async></script>
+
 </body>
 </html>
