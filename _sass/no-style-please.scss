@@ -1,18 +1,18 @@
-/* 全局样式 */
 html, body {
-  background: #ffffff; /* 页面背景颜色：白色 */
-  margin: 0; /* 清除默认的外边距 */
+  background: #ffffff;
+  margin: 0;
 }
-html { height: 100%; } /* 设置html高度为100% */
+
+html { height: 100%; }
 
 body {
-  color: #373737; /* 文本颜色：深灰色 */
-  font-family: monospace; /* 使用等宽字体 */
-  font-size: 16px; /* 字体大小：16px */
-  line-height: 1.9; /* 行高：1.9 */
-  min-height: 100%; /* 设置最小高度为100% */
-  overflow-wrap: break-word; /* 单词会在边界内换行 */
-  letter-spacing: 1px; /* 字符间隔：1px */
+  color: #373737;
+  font-family: monospace;
+  font-size: 16px;
+  line-height: 1.9;
+  min-height: 100%;
+  overflow-wrap: break-word;
+  letter-spacing: 1px;
 }
 
 .center {
@@ -22,159 +22,135 @@ body {
   text-align: center;
 }
 
-/* 计数器容器样式 */
 .counter-container {
-  position: relative; /* 设置定位为相对定位 */
-  top: -0.4em; /* 定位上移0.4em */
-  display: inline-block; /* 以内联块的形式显示 */
-  white-space: nowrap; /* 文本不换行 */
+  position: relative;
+  top: -0.4em;
+  display: inline-block;
+  white-space: nowrap;
 }
 
-/* 自定义计数器样式 */
 .custom-counter {
-  color: #ffffff; /* 文本颜色：白色 */
-  font-size: 12px; /* 字体大小：12px */
-  background-color: #373737; /* 背景颜色：深灰色 */
-  padding: 2px; /* 内边距：2px */
-  border-radius: 5px; /* 圆角半径：5px */
+  color: #ffffff;
+  font-size: 12px;
+  background-color: #373737;
+  padding: 2px;
+  border-radius: 5px;
 }
 
-/* 链接样式 */
 a {
-  color: #373737; /* 链接颜色：蓝色 */
-  font-weight: bold; /* 字体权重：正常 */
+  color: #373737;
+  font-weight: bold;
 }
 
 .tags {
-  color: rgb(255, 255, 255); /* 文字颜色 */
-  border: 0px solid blue; /* 边框样式 */
-  padding: 2px; /* 内边距 */
-  margin: 0 0px; /* 上下外边距为0，左右外边距*/
-  background-color: #373737; /* 背景颜色 */
-  border-radius: 5px; /* 边框圆角 */
-  line-height: 1; /* 确保行高与字体大小匹配 */
-  font-size: 12px; /* 文字大小 */
-  white-space: nowrap; /* 防止内部文本换行 */
+  color: rgb(255, 255, 255);
+  border: 0px solid blue;
+  padding: 2px;
+  margin: 0 0px;
+  background-color: #373737;
+  border-radius: 5px;
+  line-height: 1;
+  font-size: 12px;
+  white-space: nowrap;
 }
 
-/* 定义音频播放器 */
 .audio-container {
-  max-width: 320px; /* 设置最大宽度为320px */
-  width: 100%; /* 宽度为父元素的100%，用于实现自适应 */
-  margin: left; /* 让容器居中显示 */
+  max-width: 320px;
+  width: 100%;
+  margin: left;
+  display: block;
 }
 
-.audio-cover {
-  width: 100%; /* 让图像的宽度是100% */
-  display: block; /* 让图像块级显示，以便宽度为100%时它能够正常工作 */
-  margin-bottom: 15px; /* 间距 */
-  border-radius: 0%;/* 圆角 */
-}
-
-.audio-player {
-  width: 100%; /* 让播放条的宽度是100% */
-  display: block; /* 让播放条块级显示，以便宽度为100%时它能够正常工作 */
-}
-
-
-/* 无序列表样式 */
 ul {
   list-style-type: disc;
 }
 
-/* 分隔符样式 */
 .separator {
-  height: 5px; /* 高度：5px */
-  background-color: #cccccc; /* 背景颜色：灰色 */
-  visibility: hidden; /* 隐藏但保留空间 */
+  height: 5px;
+  background-color: #cccccc;
+  visibility: hidden;
 }
 
-/* 后退链接样式 */
 .back-link {
-  display: block; /* 以块的形式显示 */
-  margin-top: 2rem; /* 上外边距：2rem */
+  display: block;
+  margin-top: 2rem;
 }
 
-/* 文章元数据样式 */
 .post-meta {
-  text-align: right; /* 文本右对齐 */
-  font-size: 14px; /* 设置字体大小 */
-  color: #373737; /* 设置字体颜色 */
-  font-weight: normal; /* 设置字体粗细，可以是 normal、bold 或具体的数字值，比如 400（normal）, 700（bold）等 */
+  text-align: right;
+  font-size: 14px;
+  color: #373737;
+  font-weight: normal;
 }
 
-/* 头部样式 */
-h2, h3, h4, h5, h6 { margin-top: 3rem; } /* 上外边距：3rem */
+h2, h3, h4, h5, h6 {
+  margin-top: 3rem;
+}
 
-/* 水平分割线样式 */
-hr { margin: 1rem 0; } /* 上下外边距：2rem */
+hr {
+  margin: 1rem 0;
+}
 
-/* 段落样式 */
-p { margin: 2.5rem 0; } /* 上下外边距：2.5rem */
+p {
+  margin: 2.5rem 0;
+}
 
-/* 列表项样式 */
-li { margin: 0.4rem 0; } /* 上下外边距：0.4rem */
+li {
+  margin: 0.4rem 0;
+}
 
-/* 被链接目标的背景颜色 */
 *:target {
   background: #373737;
-  color: #ffffff; /* 字体颜色 */
+  color: #ffffff;
 }
 
-/* .w 类样式 */
 .w {
-  max-width: 640px; /* 最大宽度：640px */
-  margin: 0 auto; /* 居中显示 */
-  padding: 4rem 2rem; /* 内边距：上下4rem，左右2rem */
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 4rem 2rem;
 }
 
-/* 表格样式 */
 table, th, td {
-  width: 100%; /* 宽度：100% */
-  border: thin solid black; /* 边框：细黑线 */
-  border-collapse: collapse; /* 边框合并 */
-  padding: 0.4rem; /* 内边距：0.4rem */
+  width: 100%;
+  border: thin solid black;
+  border-collapse: collapse;
+  padding: 0.4rem;
 }
 
-/* 代码块样式 */
 code {
-  color: #000000; /* 文本颜色：黑色 */
-  background: #bebebe; /* 背景颜色：浅灰色 */
-  font-size: 14px; /* 字体大小：14px */
+  color: #000000;
+  background: #bebebe;
+  font-size: 14px;
 }
 
-/* Rouge代码高亮样式 */
 div.highlighter-rouge code {
-  display: block; /* 以块的形式显示 */
-  overflow-x: auto; /* 横向滚动条 */
-  white-space: pre-wrap; /* 保留空格 */
-  padding: 1rem; /* 内边距：1rem */
+  display: block;
+  overflow-x: auto;
+  white-space: pre-wrap;
+  padding: 1rem;
 }
 
-/* 引用样式 */
 blockquote {
-  font-style: italic; /* 斜体 */
-  border: thin solid black; /* 边框：细黑线 */
-  padding: 1rem; /* 内边距：1rem */
-  p { margin: 0; } /* 引用中的段落无外边距 */
+  font-style: italic;
+  border: thin solid black;
+  padding: 1rem;
 }
 
 em {
-  font-style: italic; /* 设置斜体字样式 */
-  color: #b2b2b2; /* 设置斜体字颜色 */
-  font-size: 16px; /* 设置斜体字大小 */
+  font-style: italic;
+  color: #b2b2b2;
+  font-size: 16px;
 }
 
-/* 图片样式 */
 img {
-  max-width: 100%; /* 最大宽度：100% */
-  display: block; /* 以块的形式显示 */
-  margin: 0 auto; /* 居中显示 */
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
 }
 
 .footer-img {
-  width: calc(100% + 4rem); 
-  max-width: calc(640px + 4rem);  /* 包括额外的4rem，使得图片在大屏幕上仍然可以达到640px的宽度 */
+  width: calc(100% + 4rem);
+  max-width: calc(640px + 4rem);
   margin-left: -2rem;
   margin-right: -2rem;
   margin-top: 6rem;
@@ -184,8 +160,8 @@ img {
 }
 
 .header-img {
-  width: calc(100% + 4rem); 
-  max-width: calc(640px + 4rem);  /* 包括额外的4rem，使得图片在大屏幕上仍然可以达到640px的宽度 */
+  width: calc(100% + 4rem);
+  max-width: calc(640px + 4rem);
   margin-left: -2rem;
   margin-right: -2rem;
   margin-top: -4.01rem;
