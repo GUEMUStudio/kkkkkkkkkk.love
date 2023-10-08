@@ -2,8 +2,7 @@
 layout: post
 category: post
 permalink: /1121
-footer_img: "https://kkkkkkkkkk-1315869757.cos.ap-chengdu.myqcloud.com/homepage/KKhomepage1.gif"
-header_img: "https://kkkkkkkkkk-1315869757.cos.ap-chengdu.myqcloud.com/homepage/KKhomepage1.gif"
+footer_img: "https://kkkkkkkkkk-1315869757.cos.ap-chengdu.myqcloud.com/homepage/footer_01_704.gif"
 ---
 
 
