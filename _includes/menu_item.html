@@ -1,12 +1,11 @@
 <ul>
   {%- for item in include.collection -%}
     {%- if forloop.first == false and include.is_subitem != true -%}
-      <div style="height: 1.6em;"></div>
     {%- endif -%}
     <li>
       {%- if item.url -%}
         {%- if item.date -%}
-          <span>{{ item.date | date: site.theme_config.date_format }}<span style="margin-right: 5px;"></span></span>
+        {{ item.date | date: site.theme_config.date_format }}
         {%- endif -%}
         <a href="{{ item.url }}">{{ item.title }}</a>
       {%- else -%}
