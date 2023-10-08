@@ -22,8 +22,9 @@
 
             <!-- 如果存在 footer_img，显示为底图 -->
             {% if page.footer_img %}
-            <img src="{{ page.footer_img }}" alt="Footer Image" class="footer-img">
+            <img class="lazyload footer-img" data-src="{{ page.footer_img }}" alt="Footer Image">
             {% endif %}
+
         </div>
     </main>
 
