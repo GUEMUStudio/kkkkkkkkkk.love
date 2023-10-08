@@ -1,8 +1,6 @@
 <ul>
   {%- for item in include.collection -%}
-    {%- if forloop.first == false and include.is_subitem != true -%}
-    {%- endif -%}
-    <li>
+    <li {% if forloop.first == false and include.is_subitem != true %}style="margin-top: 2rem;"{% endif %}>
       {%- if item.url -%}
         {%- if item.date -%}
         {{ item.date | date: site.theme_config.date_format }}
