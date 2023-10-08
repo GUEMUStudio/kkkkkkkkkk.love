@@ -118,7 +118,7 @@ li { margin: 0.4rem 0; } /* 上下外边距：0.4rem */
 .w {
   max-width: 640px; /* 最大宽度：640px */
   margin: 0 auto; /* 居中显示 */
-  padding: 6rem 0rem; /* 内边距：上下4rem，左右2rem */
+  padding: 6rem 2rem; /* 内边距：上下4rem，左右2rem */
 }
 
 /* 表格样式 */
@@ -166,9 +166,9 @@ img {
 }
 
 .full-img {
-  width: 100%;
-  height: auto;
+  width: calc(100% + 4rem); /* 宽度为100%加上两边的2rem */
+  max-width: 640px; /* 最大宽度：640px */
+  margin: 0 -2rem; /* 抵消左右的2rem内边距 */
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  height: auto;
 }
