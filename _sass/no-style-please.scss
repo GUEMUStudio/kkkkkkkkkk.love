@@ -164,3 +164,11 @@ img {
   display: block; /* 以块的形式显示 */
   margin: 0 auto; /* 居中显示 */
 }
+
+.full-img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
