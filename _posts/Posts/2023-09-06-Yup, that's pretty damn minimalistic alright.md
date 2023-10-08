@@ -2,6 +2,8 @@
 layout: post
 category: post
 permalink: /1121
+footer_img: "https://kkkkkkkkkk-1315869757.cos.ap-chengdu.myqcloud.com/homepage/KKhomepage1.gif"
+header_img: "https://kkkkkkkkkk-1315869757.cos.ap-chengdu.myqcloud.com/homepage/KKhomepage1.gif"
 ---
 
 
@@ -11,7 +13,9 @@ By the way, I had this idea to make the links green at first. But, you know, kee
 
 Oh, and if English isn't your jam, just pop on your browser's translation*（浏览器翻译功能）*. It should do the trick..
 
+![Image Alt Txt](https://kkkkkkkkkk-1315869757.cos.ap-chengdu.myqcloud.com/homepage/KKhomepage1.gif){: .full-img }
 
+<img src="https://kkkkkkkkkk-1315869757.cos.ap-chengdu.myqcloud.com/homepage/KKhomepage1.gif" alt="Image Alt Text" class="full-img">
 
 # 欢迎来到我的博客！
 

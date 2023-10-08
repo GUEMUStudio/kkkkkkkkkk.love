@@ -165,11 +165,24 @@ img {
   margin: 0 auto; /* 居中显示 */
 }
 
-.full-img {
+.footer-img {
   width: calc(100% + 4rem); 
   max-width: calc(640px + 4rem);  /* 包括额外的4rem，使得图片在大屏幕上仍然可以达到640px的宽度 */
   margin-left: -2rem;
   margin-right: -2rem;
+  margin-top: 6rem;
+  margin-bottom: -4rem;
+  display: block;
+  height: auto;
+}
+
+.header-img {
+  width: calc(100% + 4rem); 
+  max-width: calc(640px + 4rem);  /* 包括额外的4rem，使得图片在大屏幕上仍然可以达到640px的宽度 */
+  margin-left: -2rem;
+  margin-right: -2rem;
+  margin-top: -4rem;
+  margin-bottom: 6rem;
   display: block;
   height: auto;
 }
