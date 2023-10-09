@@ -8,13 +8,13 @@
 
     <main class="page-content" aria-label="Content">
         <div class="w">
-            {% if page.header_img %}
-            <img src="{{ page.header_img }}" alt="Header Image" class="header-img">
+            {% if page.header-img %}
+            <img src="{{ page.header-img }}" alt="Header Image" class="header-img">
             {% endif %}
             {% assign content = content | replace: '<img src', '<img class="lazyload" data-src' %}
             {{ content }}
-            {% if page.footer_img %}
-            <img class="lazyload footer-img" data-src="{{ page.footer_img }}" alt="Footer Image">
+            {% if page.footer-img %}
+            <img class="lazyload footer-img" data-src="{{ page.footer-img }}" alt="Footer Image">
             {% endif %}
             </div>
         </div>
