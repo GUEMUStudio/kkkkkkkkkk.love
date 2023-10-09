@@ -1,0 +1,72 @@
+---
+layout: default
+---
+
+{%-include back_link.html-%}
+
+<article>
+  <p class="post-meta">
+    <time datetime="{{ page.date }}">{{ page.date | date: site.theme_config.date_format }}</time>
+    {% if page.location %}
+    <br>{{ page.location }}
+    {% endif %}
+  </p>
+
+  <h1>{{ page.title }}</h1>
+
+
+  {{ content }}
+</article>
+
+<!-- 添加音乐播放控制按钮 -->
+<div class="toc-container">
+    <a href="play/pause" class="toc-button music-control-button paused" onclick="event.preventDefault();">Play</a>
+</div>
+
+<script>
+    var btn = document.querySelector('.music-control-button');
+    var audios = document.querySelectorAll('.audio-player');
+
+    // 当按钮被点击时的逻辑
+    btn.addEventListener('click', function() {
+        var allPaused = true;
+
+        audios.forEach(function(audio) {
+            if (audio.paused) {
+                audio.play();
+            } else {
+                audio.pause();
+                allPaused = false;
+            }
+        });
+
+        updateButtonState(allPaused);
+    });
+
+    // 监听每个音频播放器的状态
+    audios.forEach(function(audio) {
+        audio.addEventListener('play', function() {
+            updateButtonState(false); // 当任何音频开始播放时，将按钮设置为“Pause”状态
+        });
+
+        audio.addEventListener('pause', function() {
+            // 检查所有音频是否都已暂停
+            var allPaused = Array.from(audios).every(a => a.paused);
+            if (allPaused) {
+                updateButtonState(true); // 当所有音频都暂停时，将按钮设置为“Play”状态
+            }
+        });
+    });
+
+    function updateButtonState(allPaused) {
+        if (allPaused) {
+            btn.textContent = "Play";
+            btn.classList.remove('playing');
+            btn.classList.add('paused');
+        } else {
+            btn.textContent = "Pause";
+            btn.classList.remove('paused');
+            btn.classList.add('playing');
+        }
+    }
+</script>
