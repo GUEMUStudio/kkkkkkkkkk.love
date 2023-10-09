@@ -182,14 +182,20 @@ blockquote {
 em {
   font-style: italic;
   color: #b2b2b2;
-  font-size: 14px;
+  font-size: 1px;
 }
 
 img {
-  max-width: 100%;
+  width: calc(100% + 4rem);
+  max-width: calc(640px + 4rem);
+  margin-left: -2rem;
+  margin-right: -2rem;
+  margin-top: 0rem;
+  margin-bottom: 0rem;
   display: block;
-  margin: 0 auto;
+  height: auto;
 }
+
 
 .footer-img {
   width: calc(100% + 4rem);
