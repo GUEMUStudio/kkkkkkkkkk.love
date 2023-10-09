@@ -186,16 +186,10 @@ em {
 }
 
 img {
-  width: calc(100% + 4rem);
-  max-width: calc(640px + 4rem);
-  margin-left: -2rem;
-  margin-right: -2rem;
-  margin-top: 0rem;
-  margin-bottom: 0rem;
+  max-width: 100%;
   display: block;
-  height: auto;
+  margin: 0 auto;
 }
-
 
 .footer-img {
   width: calc(100% + 4rem);

@@ -51,6 +51,8 @@ Oh, and if English isn't your jam, just pop on your browser's translation*（浏
 
 ![Image 3](https://via.placeholder.com/300x200)
 
+<img src="https://via.placeholder.com/300x200" alt="Description" class="fullimg">
+
 要使用 `lazysizes`，你需要修改图像标签的 `src` 属性，改为 `data-src`。同时，你还需要添加一个 `class` 属性，值为 `lazyload`。
 
 ```html
@@ -86,6 +88,8 @@ Oh, and if English isn't your jam, just pop on your browser's translation*（浏
 
 ![Image 5](https://ahrefs.com/blog/wp-content/uploads/2020/12/1-comic-password-strength.png)
 
+
+<img src="https://ahrefs.com/blog/wp-content/uploads/2020/12/1-comic-password-strength.png" alt="Description" class="fullimg">
 ## 段落 5
 
 这是第五个段落。在这个段落中，我们将回顾我们关于懒加载的所有讨论，并总结主要观点。我们希望这个示例对你有所帮助。
