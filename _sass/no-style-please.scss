@@ -40,7 +40,7 @@ body {
 .w {
   max-width: 640px;
   margin: 0 auto;
-  padding: 4rem 2rem 0 2rem; /* 将底部的 padding 设为 0 */
+  padding: 4rem 2rem 2rem; /* 将底部的 padding 设为 0 */
 }
 
 a {
@@ -192,14 +192,13 @@ img {
 }
 
 .footer-img {
-  width: calc(100% + 4rem); /* 设置图片的宽度为页面宽度加上 4rem，使其稍微超出容器 */
-  max-width: calc(640px + 4rem); /* 设置图片的最大宽度为 640px 加 4rem，适应不同屏幕尺寸 */
-  margin-left: -2rem; /* 将图片左侧外边距设置为 -2rem，使其向左超出容器 */
-  margin-right: -2rem; /* 将图片右侧外边距设置为 -2rem，使其向右超出容器 */
-  margin-top: 6rem; /* 设置图片顶部外边距为 6rem，将图片向下推 */
-  margin-bottom: -4.1rem; /* 设置图片底部外边距为 -4.1rem，使其下部稍微超出容器 */
-  display: block; /* 将图片设置为块级元素，占据整行 */
-  height: auto; /* 设置图片高度为自动，以保持宽高比 */
+  width: calc(100% + 4rem); 
+  max-width: calc(640px + 4rem);
+  margin-left: -2rem;
+  margin-right: -2rem;
+  margin-top: 6rem;
+  display: block;
+  height: auto;
 }
 
 .header-img {
@@ -207,7 +206,6 @@ img {
   max-width: calc(640px + 4rem); /* 设置图片的最大宽度为 640px 加 4rem，适应不同屏幕尺寸 */
   margin-left: -2rem; /* 将图片左侧外边距设置为 -2rem，使其向左超出容器 */
   margin-right: -2rem; /* 将图片右侧外边距设置为 -2rem，使其向右超出容器 */
-  margin-top: -4.01rem; /* 设置图片顶部外边距为 -4.01rem，使其上部稍微超出容器 */
   margin-bottom: 6rem; /* 设置图片底部外边距为 6rem，将图片向下推 */
   display: block; /* 将图片设置为块级元素，占据整行 */
   height: auto; /* 设置图片高度为自动，以保持宽高比 */
