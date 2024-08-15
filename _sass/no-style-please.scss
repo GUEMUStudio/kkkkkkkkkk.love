@@ -40,7 +40,7 @@ body {
 .w {
   max-width: 640px;
   margin: 0 auto;
-  padding: 4rem 2rem;
+  padding: 4rem 2rem 0 2rem; /* 将底部的 padding 设为 0 */
 }
 
 a {
