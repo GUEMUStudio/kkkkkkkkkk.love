@@ -142,7 +142,7 @@ li {
   font-weight: normal;      /* 字体粗细 */
   padding: 3px 12px; 
   background-color: #373737; /* 背景颜色 */
-  border-radius: 0rem;     /* 圆角大小 */
+  border-radius: 0px;     /* 圆角大小 */
   color: #ffffff;            /* 文字颜色 */
   text-decoration: none;  /* 移除链接下划线 */
   cursor: pointer;        /* 鼠标悬停时的样式为手指形状 */
@@ -164,6 +164,7 @@ code {
   color: #373737;
   background: #eeeeee;
   font-size: 14px;
+  border-radius: 16px; /* 控制圆角的大小，可以根据需要调整 */
 }
 
 div.highlighter-rouge code {
@@ -189,4 +190,5 @@ img {
   max-width: 100%;
   display: block;
   margin: 0 auto;
+  border-radius: 0px;
 }
