@@ -11,11 +11,11 @@ permalink: /1990
 
 
 ## 节点预览:
----
+
 ![preview_custom_save_image_node](https://s2.loli.net/2024/11/08/b1dZw9RAFiyxJzo.png)
 
 ## 当前功能：
----
+
 ### Color Adjustment 节点功能
 
 - 支持对图片的曝光、对比度、色温、色调和饱和度进行调节
@@ -49,13 +49,13 @@ permalink: /1990
 - 当保存为 PNG 格式时，元数据以 PNG 信息（PngInfo）存储；当保存为 JPG 格式时，元数据以 EXIF 形式存储
 
 ## 一些说明
----
+
 - 要保存”JPG“格式，必须将"metadata“设置为"False"
 - 当选择保存"metadata“(工作流信息)时，将自动切换为"PNG"格式，并忽略"JPG"格式的设置
 - 如果你需要更小容量但不损失肉眼可见的画质，可以讲"JPG"图片质量设置为 40，更低的数值将肉眼可见色块
 
 ## 安装与使用
----
+
 - 将本项目克隆到你的 `ComfyUI/custom_nodes`目录下，并确保将 sRGB Profile.icc 和AdobeRGB1998.icc 文件放在 resources 目录中
 ```bash
 git clone https://github.com/kk8bit/KayTool.git
