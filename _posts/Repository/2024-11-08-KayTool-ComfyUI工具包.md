@@ -5,9 +5,10 @@ category: Repository
 permalink: /1990
 ---
 
-#### [项目地址](https://github.com/kk8bit/KayTool.git)
+- [项目地址](https://github.com/kk8bit/KayTool.git)
+
 这是一个为 ComfyUI 开发的自定义节点实用工具包，在未来我会陆续为它增加功能
----
+
 
 ## 节点预览:
 ---
