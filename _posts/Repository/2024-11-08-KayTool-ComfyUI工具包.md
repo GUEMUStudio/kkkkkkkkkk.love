@@ -11,7 +11,7 @@ permalink: /1990
 
 ## 节点预览:
 ---
-![preview_custom_save_image_node](https://github.com/user-attachments/assets/b12043aa-7bc0-4c29-b5a8-aa918c9943ac)
+![preview_custom_save_image_node](https://s2.loli.net/2024/11/08/b1dZw9RAFiyxJzo.png)
 
 ## 当前功能：
 ---
