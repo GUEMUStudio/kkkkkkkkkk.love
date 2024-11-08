@@ -5,7 +5,7 @@ category: Repository
 permalink: /1990
 ---
 
-## [KayTool](https://github.com/kk8bit/KayTool.git)
+#### [项目地址](https://github.com/kk8bit/KayTool.git)
 这是一个为 ComfyUI 开发的自定义节点实用工具包，在未来我会陆续为它增加功能
 ---
 
@@ -56,4 +56,9 @@ permalink: /1990
 ## 安装与使用
 ---
 - 将本项目克隆到你的 `ComfyUI/custom_nodes`目录下，并确保将 sRGB Profile.icc 和AdobeRGB1998.icc 文件放在 resources 目录中
+```bash
+git clone https://github.com/kk8bit/KayTool.git
+```
+- 重启 ComfyUI 并在节点菜单中找到 "KayTool" 及其分支
+- 在ComfyUI Manager中也可以搜索到KayTool工具包
 - [项目地址](https://github.com/kk8bit/KayTool.git)
