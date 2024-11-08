@@ -14,9 +14,9 @@
         </div>
     </main>
 
-    {%-if site.goat_counter and jekyll.environment == "production"-%}
-    {%-include goat_counter.html-%}
-    {%-endif-%}
+    {%- if site.goat_counter and jekyll.environment == "production" -%}
+    {%- include goat_counter.html -%}
+    {%- endif -%}
 
     {% if page.custom_js %}
     {% for js_file in page.custom_js %}
@@ -25,10 +25,26 @@
     {% endif %}
 
     <script>
+        // 配置 lazySizes
         window.lazySizesConfig = window.lazySizesConfig || {};
         window.lazySizesConfig.expand = 800;
     </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.3.2/lazysizes.min.js" async></script>
+
+    <script>
+        // 自动将所有外部链接设置为新窗口打开
+        document.addEventListener("DOMContentLoaded", function () {
+            const links = document.querySelectorAll("a");
+
+            links.forEach(link => {
+                // 检查链接是否为外部链接
+                if (link.href && !link.href.includes(window.location.hostname)) {
+                    link.setAttribute("target", "_blank");
+                    link.setAttribute("rel", "noopener noreferrer"); // 增加安全性
+                }
+            });
+        });
+    </script>
 
 </body>
 </html>
